@@ -17,9 +17,9 @@ var cortesias = [{
 
 const cardCortesia = document.querySelector('.cardsCortesias')
 
-cortesias.map(cortesia => {
-    let card = `<div class="card cortesia" > 
-                    <img src="${cortesia.image}" alt="image-slider" class="card-img-top"/>
+cortesias.map((cortesia, i) => {
+    let card = `<div key="${i}" class="card cortesia" > 
+                    <img src="${cortesia.image}" alt="image-card" class="card-img-top"/>
                     <div class="card-body d-flex flex-column align-content-center justify-content-center">
                         <h5 class="card-title text-center">${cortesia.title}</h5>
                         <p class="card-text text-center">

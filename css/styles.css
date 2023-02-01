@@ -38,6 +38,11 @@
   color:#ffff;
 }
 
+.buttonHome:hover{
+  color: #ffff;
+  border: 1px solid #ffff;
+}
+
 .text-title {
   font-family: 'Playfair Display';
   letter-spacing: 1px;
@@ -88,6 +93,10 @@
   width: 100%;
   position: absolute;
   top: 0;
+}
+
+.nav-item a:hover{
+  color: #ffff;
 }
 
 @media(max-width: 450px){
